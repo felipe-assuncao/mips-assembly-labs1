@@ -1,14 +1,13 @@
-# Perfect Square Detector in MIPS Assembly
+# 💻 mips-assembly-labs1
 
-This project was developed in assembly language (MIPS Assembly) for the Computer Architecture course.
+This repository centralizes my low-level programming projects, laboratories, and challenges developed for the Computer Architecture course. The main goal is to explore CPU operations, manual memory management, and low-level software optimization.
 
-## 🚀 Features
-- Interactive interface via terminal (MARS Simulator).
+## 🛠️ Technologies and Tools
+- **Language:** MIPS Assembly
+- **Simulator:** MARS (MIPS Assembler and Runtime Simulator)
 
-- Optimized algorithm for calculating square roots without using native CPU division/root instructions.
+## 📁 Project Structure
 
-- Logical verification of whether the entered number is a perfect square.
-
-- Storage of history in vectors (arrays) with physical memory alignment (`.align 2`).
-
-- Display of a structured final report.
+### 1. Perfect Square & Square Root Detector
+- **File:** `main.asm`
+- **Description:** An optimized algorithm that calculates the square root of integers based on the sequential addition of odd numbers, entirely bypassing native hardware division or square root instructions. It validates whether the input is a perfect square and stores the execution history using arrays aligned in physical memory (`.align 2`).
